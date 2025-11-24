@@ -1,24 +1,112 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-node_modules
-dist
-dist-ssr
-*.local
+# C extensions
+*.so
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+
+# Project-specific
+data/raw/
+data/processed/
+data/output/
+*.csv
+plots/
+laps/
+*.parquet
+*.png
+*.jpg
+*.jpeg
+*.json
+!requirements.txt
+!setup.py
+
+# Environment-specific
+.env.local
+.env.*.local
+
+# Virtual environment activation
+activate
+activate.bat
+activate.ps1
+# Large generated CSVs (comment these out if you prefer to track CSVs)
+telemetry_clean.csv
+per_lap_metrics.csv
+per_driver_metrics.csv
+event_detection.csv
+
+# Python packaging
+*.egg-info/
+dist/
+build/
