@@ -7,7 +7,7 @@ Thank you for your interest in contributing! This document provides guidelines a
 1. **Fork the repository** on GitHub
 2. **Clone your fork** locally:
    ```bash
-   git clone https://github.com/yourusername/race-analytics.git
+   git clone https://github.com/daksh777f/Real-Time-Racing-Intelligence
    cd race-analytics
    ```
 3. **Create a feature branch**:
