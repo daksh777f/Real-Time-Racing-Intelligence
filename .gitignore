@@ -110,3 +110,20 @@ event_detection.csv
 *.egg-info/
 dist/
 build/
+
+# Secrets
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs
+*.log
+
+# Node
+node_modules/
+.next/
+out/
+.vercel/
+npm-debug.log*
+yarn-error.log*
