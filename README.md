@@ -403,10 +403,3 @@ export PYTHONPATH="${PYTHONPATH}:$(pwd)/src"
 ---
 
 **Made with ❤️ for motorsports enthusiasts and engineers.**
-
-## Team
-
-- Daksh Goel ([@daksh777f](https://github.com/daksh777f))
-- Chirag Aggarwal ([@Chirag-agg](https://github.com/Chirag-agg))
-
-<!-- TODO (Daksh): after each name, add one line on what that person built, e.g. "backend API and data pipeline". Hidden comments like this one do not show on GitHub. -->
